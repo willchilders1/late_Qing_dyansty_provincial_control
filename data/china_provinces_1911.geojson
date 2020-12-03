@@ -1,0 +1,2735 @@
+{
+  "type": "FeatureCollection",
+  "name": "china_provinces_1911",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195101",
+        "NAME_PY": "Hai Zhou",
+        "X_COOR": 119.126012,
+        "Y_COOR": 34.582213,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.126012, 34.582213]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195102",
+        "NAME_PY": "Xuzhou Fu",
+        "X_COOR": 117.187683,
+        "Y_COOR": 34.269634,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.187683, 34.269634]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195103",
+        "NAME_PY": "Tong Zhou",
+        "X_COOR": 120.854645,
+        "Y_COOR": 32.010471,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.854645, 32.010471]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195104",
+        "NAME_PY": "Haimen Ting",
+        "X_COOR": 121.168198,
+        "Y_COOR": 31.893732,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.168198, 31.893732]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195105",
+        "NAME_PY": "Nan'ao Ting",
+        "X_COOR": 117.095764,
+        "Y_COOR": 23.455618,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.095764, 23.455618]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195106",
+        "NAME_PY": "Jiaying Zhou",
+        "X_COOR": 116.110497,
+        "Y_COOR": 24.315781,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.110497, 24.315781]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195107",
+        "NAME_PY": "Huizhou Fu",
+        "X_COOR": 114.410285,
+        "Y_COOR": 23.089378,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.410285, 23.089378]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195108",
+        "NAME_PY": "Nanxiong Zhou",
+        "X_COOR": 114.302086,
+        "Y_COOR": 25.118843,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.302086, 25.118843]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195109",
+        "NAME_PY": "Fogang Ting",
+        "X_COOR": 113.531052,
+        "Y_COOR": 23.871895,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.531052, 23.871895]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195110",
+        "NAME_PY": "Chixi Ting",
+        "X_COOR": 112.989914,
+        "Y_COOR": 21.996136,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.989914, 21.996136]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195111",
+        "NAME_PY": "Yangjiang Ting",
+        "X_COOR": 111.958946,
+        "Y_COOR": 21.845419,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.958946, 21.845419]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195112",
+        "NAME_PY": "Luoding Zhou",
+        "X_COOR": 111.570351,
+        "Y_COOR": 22.766914,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.570351, 22.766914]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195113",
+        "NAME_PY": "Lian Zhou",
+        "X_COOR": 112.378121,
+        "Y_COOR": 24.779701,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.378121, 24.779701]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195114",
+        "NAME_PY": "Qin Zhou",
+        "X_COOR": 108.614395,
+        "Y_COOR": 21.951426,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [108.614395, 21.951426]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195115",
+        "NAME_PY": "Jingmen Zhou",
+        "X_COOR": 112.198418,
+        "Y_COOR": 31.028728,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.198418, 31.028728]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195116",
+        "NAME_PY": "Changsha Fu",
+        "X_COOR": 112.978134,
+        "Y_COOR": 28.198198,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.978134, 28.198198]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195117",
+        "NAME_PY": "Yongzhou Fu",
+        "X_COOR": 111.612564,
+        "Y_COOR": 26.210339,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.612564, 26.210339]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195118",
+        "NAME_PY": "Guangde Zhou",
+        "X_COOR": 119.420189,
+        "Y_COOR": 30.894686,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.420189, 30.894686]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195119",
+        "NAME_PY": "Fengyang Fu",
+        "X_COOR": 117.537746,
+        "Y_COOR": 32.865348,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.537746, 32.865348]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195120",
+        "NAME_PY": "Chu Zhou",
+        "X_COOR": 118.304161,
+        "Y_COOR": 32.316994,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.304161, 32.316994]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195121",
+        "NAME_PY": "He Zhou",
+        "X_COOR": 118.361122,
+        "Y_COOR": 31.714224,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.361122, 31.714224]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195122",
+        "NAME_PY": "Liu'an Zhou",
+        "X_COOR": 116.494118,
+        "Y_COOR": 31.754595,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.494118, 31.754595]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195123",
+        "NAME_PY": "Si Zhou",
+        "X_COOR": 117.878853,
+        "Y_COOR": 33.478207,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.878853, 33.478207]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195124",
+        "NAME_PY": "Yongshun Xian",
+        "X_COOR": 109.852608,
+        "Y_COOR": 29.005901,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.852608, 29.005901]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195125",
+        "NAME_PY": "Yuanzhou Fu",
+        "X_COOR": 109.684082,
+        "Y_COOR": 27.447302,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.684082, 27.447302]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195126",
+        "NAME_PY": "Qianzhou Ting",
+        "X_COOR": 109.691626,
+        "Y_COOR": 28.257548,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.691626, 28.257548]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195127",
+        "NAME_PY": "Fenghuang Ting",
+        "X_COOR": 109.598991,
+        "Y_COOR": 27.952387,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.598991, 27.952387]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195128",
+        "NAME_PY": "Yongsui Ting",
+        "X_COOR": 109.487503,
+        "Y_COOR": 28.587791,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.487503, 28.587791]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195129",
+        "NAME_PY": "Huangzhou Ting",
+        "X_COOR": 109.190101,
+        "Y_COOR": 27.381504,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.190101, 27.381504]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195130",
+        "NAME_PY": "Chen Zhou",
+        "X_COOR": 113.025139,
+        "Y_COOR": 25.802719,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.025139, 25.802719]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195131",
+        "NAME_PY": "Jing Zhou",
+        "X_COOR": 109.694778,
+        "Y_COOR": 26.57576,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.694778, 26.57576]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195132",
+        "NAME_PY": "Li Zhou",
+        "X_COOR": 111.756988,
+        "Y_COOR": 29.640152,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.756988, 29.640152]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195133",
+        "NAME_PY": "Guiyang Zhou",
+        "X_COOR": 112.725929,
+        "Y_COOR": 25.74197,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.725929, 25.74197]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195134",
+        "NAME_PY": "Xing'an Fu",
+        "X_COOR": 109.02697,
+        "Y_COOR": 32.693626,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.02697, 32.693626]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195135",
+        "NAME_PY": "Fengxiang Fu",
+        "X_COOR": 107.385918,
+        "Y_COOR": 34.522518,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [107.385918, 34.522518]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195136",
+        "NAME_PY": "Hanzhong Fu",
+        "X_COOR": 107.035187,
+        "Y_COOR": 33.076485,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [107.035187, 33.076485]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195137",
+        "NAME_PY": "Qian Zhou",
+        "X_COOR": 108.235603,
+        "Y_COOR": 34.5303,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [108.235603, 34.5303]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195138",
+        "NAME_PY": "Shang Zhou",
+        "X_COOR": 109.932465,
+        "Y_COOR": 33.869892,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.932465, 33.869892]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195139",
+        "NAME_PY": "Tong Zhou",
+        "X_COOR": 109.939082,
+        "Y_COOR": 34.797245,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.939082, 34.797245]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195140",
+        "NAME_PY": "Bin Zhou",
+        "X_COOR": 108.077988,
+        "Y_COOR": 35.039658,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [108.077988, 35.039658]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195141",
+        "NAME_PY": "Fu Zhou",
+        "X_COOR": 109.367164,
+        "Y_COOR": 35.995628,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.367164, 35.995628]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195142",
+        "NAME_PY": "Yan'an Fu",
+        "X_COOR": 109.46991,
+        "Y_COOR": 36.591808,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.46991, 36.591808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195143",
+        "NAME_PY": "Suide Zhou",
+        "X_COOR": 110.254074,
+        "Y_COOR": 37.50098,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.254074, 37.50098]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195144",
+        "NAME_PY": "Yulin Fu",
+        "X_COOR": 109.753868,
+        "Y_COOR": 38.294708,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.753868, 38.294708]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195145",
+        "NAME_PY": "Ding Zhou",
+        "X_COOR": 114.975044,
+        "Y_COOR": 38.520061,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.975044, 38.520061]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195146",
+        "NAME_PY": "Shen Zhou",
+        "X_COOR": 115.548874,
+        "Y_COOR": 38.01173,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.548874, 38.01173]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195147",
+        "NAME_PY": "Hejian Fu",
+        "X_COOR": 116.085533,
+        "Y_COOR": 38.435699,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.085533, 38.435699]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195148",
+        "NAME_PY": "Zhengding Fu",
+        "X_COOR": 114.563645,
+        "Y_COOR": 38.14011,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.563645, 38.14011]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195149",
+        "NAME_PY": "Shunde Fu",
+        "X_COOR": 114.494263,
+        "Y_COOR": 37.066357,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.494263, 37.066357]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195150",
+        "NAME_PY": "Zhao Zhou",
+        "X_COOR": 114.772179,
+        "Y_COOR": 37.752926,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.772179, 37.752926]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195151",
+        "NAME_PY": "Daming Fu",
+        "X_COOR": 115.146522,
+        "Y_COOR": 36.275528,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.146522, 36.275528]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195152",
+        "NAME_PY": "Guangping Fu",
+        "X_COOR": 114.723068,
+        "Y_COOR": 36.701031,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.723068, 36.701031]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195153",
+        "NAME_PY": "Ji Zhou",
+        "X_COOR": 115.563812,
+        "Y_COOR": 37.565983,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.563812, 37.565983]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195154",
+        "NAME_PY": "Baoding Fu",
+        "X_COOR": 115.50209,
+        "Y_COOR": 38.855701,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.50209, 38.855701]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195155",
+        "NAME_PY": "Tianjin Fu",
+        "X_COOR": 117.18782,
+        "Y_COOR": 39.136971,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.18782, 39.136971]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195156",
+        "NAME_PY": "Yi Zhou",
+        "X_COOR": 115.493477,
+        "Y_COOR": 39.349037,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.493477, 39.349037]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195157",
+        "NAME_PY": "Xuanhua Fu",
+        "X_COOR": 115.051148,
+        "Y_COOR": 40.610363,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.051148, 40.610363]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195158",
+        "NAME_PY": "Yongping Fu",
+        "X_COOR": 118.861954,
+        "Y_COOR": 39.877323,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.861954, 39.877323]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195159",
+        "NAME_PY": "Zunhua Zhou",
+        "X_COOR": 117.957985,
+        "Y_COOR": 40.184448,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.957985, 40.184448]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195160",
+        "NAME_PY": "Shuntian Fu",
+        "X_COOR": 116.368004,
+        "Y_COOR": 39.931427,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhili"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.368004, 39.931427]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195161",
+        "NAME_PY": "Xi'an Fu",
+        "X_COOR": 108.944206,
+        "Y_COOR": 34.266605,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Shanxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [108.944206, 34.266605]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195162",
+        "NAME_PY": "Yangzhou Fu",
+        "X_COOR": 119.437187,
+        "Y_COOR": 32.39127,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.437187, 32.39127]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195163",
+        "NAME_PY": "Huai'an Fu",
+        "X_COOR": 119.141106,
+        "Y_COOR": 33.502789,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.141106, 33.502789]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195164",
+        "NAME_PY": "Shaozhou Fu",
+        "X_COOR": 113.603417,
+        "Y_COOR": 24.810209,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.603417, 24.810209]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195165",
+        "NAME_PY": "Chaozhou Fu",
+        "X_COOR": 116.636658,
+        "Y_COOR": 23.667706,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.636658, 23.667706]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195166",
+        "NAME_PY": "Guangzhou Fu",
+        "X_COOR": 113.256066,
+        "Y_COOR": 23.134624,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.256066, 23.134624]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195167",
+        "NAME_PY": "Zhaoqing Fu",
+        "X_COOR": 112.453155,
+        "Y_COOR": 23.056921,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.453155, 23.056921]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195168",
+        "NAME_PY": "Gaozhou Fu",
+        "X_COOR": 110.853813,
+        "Y_COOR": 21.919214,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.853813, 21.919214]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195169",
+        "NAME_PY": "Leizhou Fu",
+        "X_COOR": 110.087914,
+        "Y_COOR": 20.901958,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.087914, 20.901958]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195170",
+        "NAME_PY": "Qiongzhou Fu",
+        "X_COOR": 110.357941,
+        "Y_COOR": 20.008165,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.357941, 20.008165]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195171",
+        "NAME_PY": "Lianzhou Fu",
+        "X_COOR": 109.19004,
+        "Y_COOR": 21.670145,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.19004, 21.670145]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195172",
+        "NAME_PY": "Wuchang Fu",
+        "X_COOR": 114.305727,
+        "Y_COOR": 30.560694,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.305727, 30.560694]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195173",
+        "NAME_PY": "Hanyang Fu",
+        "X_COOR": 114.263408,
+        "Y_COOR": 30.553605,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.263408, 30.553605]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195174",
+        "NAME_PY": "Huangzhou Fu",
+        "X_COOR": 114.865494,
+        "Y_COOR": 30.446987,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.865494, 30.446987]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195175",
+        "NAME_PY": "Xiangyang Fu",
+        "X_COOR": 112.159628,
+        "Y_COOR": 32.02362,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.159628, 32.02362]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195176",
+        "NAME_PY": "Yunyang Fu",
+        "X_COOR": 110.813988,
+        "Y_COOR": 32.83374,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.813988, 32.83374]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195177",
+        "NAME_PY": "De'an Fu",
+        "X_COOR": 113.688919,
+        "Y_COOR": 31.263714,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.688919, 31.263714]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195178",
+        "NAME_PY": "Jingzhou Fu",
+        "X_COOR": 112.190773,
+        "Y_COOR": 30.350445,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.190773, 30.350445]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195179",
+        "NAME_PY": "Shinan Fu",
+        "X_COOR": 109.478615,
+        "Y_COOR": 30.272259,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [109.478615, 30.272259]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195180",
+        "NAME_PY": "Anlu Fu",
+        "X_COOR": 112.589256,
+        "Y_COOR": 31.169827,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.589256, 31.169827]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195181",
+        "NAME_PY": "Hengzhou Fu",
+        "X_COOR": 112.597038,
+        "Y_COOR": 26.901617,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.597038, 26.901617]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195182",
+        "NAME_PY": "Baoqing Fu",
+        "X_COOR": 111.474937,
+        "Y_COOR": 27.249315,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.474937, 27.249315]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195183",
+        "NAME_PY": "Huizhou Fu",
+        "X_COOR": 118.433945,
+        "Y_COOR": 29.86577,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.433945, 29.86577]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195184",
+        "NAME_PY": "Ningguo Fu",
+        "X_COOR": 118.7425,
+        "Y_COOR": 30.946941,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.7425, 30.946941]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195185",
+        "NAME_PY": "Chizhou Fu",
+        "X_COOR": 117.481834,
+        "Y_COOR": 30.654661,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.481834, 30.654661]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195186",
+        "NAME_PY": "Taiping Fu",
+        "X_COOR": 118.483437,
+        "Y_COOR": 31.555685,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.483437, 31.555685]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195187",
+        "NAME_PY": "Anqing Fu",
+        "X_COOR": 117.034676,
+        "Y_COOR": 30.512295,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.034676, 30.512295]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195188",
+        "NAME_PY": "Luzhou Fu",
+        "X_COOR": 117.276459,
+        "Y_COOR": 31.864456,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.276459, 31.864456]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195189",
+        "NAME_PY": "Yingzhou Fu",
+        "X_COOR": 115.809013,
+        "Y_COOR": 32.903057,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Anhui"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.809013, 32.903057]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195190",
+        "NAME_PY": "Yuezhou Fu",
+        "X_COOR": 113.097656,
+        "Y_COOR": 29.37126,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.097656, 29.37126]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195191",
+        "NAME_PY": "Changde Fu",
+        "X_COOR": 111.6913,
+        "Y_COOR": 29.034807,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.6913, 29.034807]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195192",
+        "NAME_PY": "Chenzhou Fu",
+        "X_COOR": 110.396965,
+        "Y_COOR": 28.458191,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hunan"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.396965, 28.458191]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195193",
+        "NAME_PY": "Lianshan Ting",
+        "X_COOR": 112.197841,
+        "Y_COOR": 24.696749,
+        "TYPE_PY": "Zhiliting",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Guangdong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.197841, 24.696749]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195194",
+        "NAME_PY": "Yichang Fu",
+        "X_COOR": 111.287125,
+        "Y_COOR": 30.704227,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Hubei"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [111.287125, 30.704227]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195195",
+        "NAME_PY": "Funing Fu",
+        "X_COOR": 119.990395,
+        "Y_COOR": 26.883463,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.990395, 26.883463]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195196",
+        "NAME_PY": "Yongchun Zhou",
+        "X_COOR": 118.28717,
+        "Y_COOR": 25.32579,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.28717, 25.32579]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195197",
+        "NAME_PY": "Shaowu Fu",
+        "X_COOR": 117.483398,
+        "Y_COOR": 27.337692,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.483398, 27.337692]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195198",
+        "NAME_PY": "Quanzhou Fu",
+        "X_COOR": 118.589905,
+        "Y_COOR": 24.909641,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.589905, 24.909641]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195199",
+        "NAME_PY": "Longyan Zhou",
+        "X_COOR": 117.02916,
+        "Y_COOR": 25.103722,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.02916, 25.103722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195200",
+        "NAME_PY": "Jianning Fu",
+        "X_COOR": 118.323784,
+        "Y_COOR": 27.038864,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.323784, 27.038864]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195201",
+        "NAME_PY": "Xinghua Fu",
+        "X_COOR": 119.011101,
+        "Y_COOR": 25.433954,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.011101, 25.433954]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195202",
+        "NAME_PY": "Fuzhou Fu",
+        "X_COOR": 119.321577,
+        "Y_COOR": 26.073954,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.321577, 26.073954]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195203",
+        "NAME_PY": "Tingzhou Fu",
+        "X_COOR": 116.349541,
+        "Y_COOR": 25.833382,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.349541, 25.833382]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195204",
+        "NAME_PY": "Yanping Fu",
+        "X_COOR": 118.169182,
+        "Y_COOR": 26.642174,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.169182, 26.642174]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195205",
+        "NAME_PY": "Zhangzhou Fu",
+        "X_COOR": 117.653053,
+        "Y_COOR": 24.511744,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Fujian"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.653053, 24.511744]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195206",
+        "NAME_PY": "Chuzhou Fu",
+        "X_COOR": 119.913009,
+        "Y_COOR": 28.448732,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.913009, 28.448732]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195207",
+        "NAME_PY": "Yanzhou Fu",
+        "X_COOR": 119.498856,
+        "Y_COOR": 29.544481,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.498856, 29.544481]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195208",
+        "NAME_PY": "Wenzhou Fu",
+        "X_COOR": 120.653221,
+        "Y_COOR": 28.018291,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.653221, 28.018291]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195209",
+        "NAME_PY": "Jiangning Fu",
+        "X_COOR": 118.76899,
+        "Y_COOR": 32.052563,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.76899, 32.052563]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195210",
+        "NAME_PY": "Zhenjiang Fu",
+        "X_COOR": 119.44429,
+        "Y_COOR": 32.20649,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.44429, 32.20649]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195211",
+        "NAME_PY": "Changzhou Fu",
+        "X_COOR": 119.952301,
+        "Y_COOR": 31.782784,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.952301, 31.782784]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195212",
+        "NAME_PY": "Suzhou Fu",
+        "X_COOR": 120.618622,
+        "Y_COOR": 31.31271,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.618622, 31.31271]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195213",
+        "NAME_PY": "Taicang Zhou",
+        "X_COOR": 121.098633,
+        "Y_COOR": 31.451,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.098633, 31.451]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195214",
+        "NAME_PY": "Songjiang Fu",
+        "X_COOR": 121.227638,
+        "Y_COOR": 31.009476,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Jiangsu"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.227638, 31.009476]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195215",
+        "NAME_PY": "Jiaxing Fu",
+        "X_COOR": 120.753204,
+        "Y_COOR": 30.767469,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.753204, 30.767469]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195216",
+        "NAME_PY": "Hangzhou Fu",
+        "X_COOR": 120.168625,
+        "Y_COOR": 30.294125,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.168625, 30.294125]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "195217",
+        "NAME_PY": "Huzhou Fu",
+        "X_COOR": 120.099312,
+        "Y_COOR": 30.864964,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.099312, 30.864964]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120195",
+        "NAME_PY": "Ningbo Fu",
+        "X_COOR": 121.542656,
+        "Y_COOR": 29.866316,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.542656, 29.866316]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120196",
+        "NAME_PY": "Jinhua Fu",
+        "X_COOR": 119.649918,
+        "Y_COOR": 29.104712,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [119.649918, 29.104712]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120197",
+        "NAME_PY": "Quzhou Fu",
+        "X_COOR": 118.867645,
+        "Y_COOR": 28.956821,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.867645, 28.956821]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120198",
+        "NAME_PY": "Taizhou Fu",
+        "X_COOR": 121.120598,
+        "Y_COOR": 28.843132,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.120598, 28.843132]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120199",
+        "NAME_PY": "Shaoxing Fu",
+        "X_COOR": 120.578262,
+        "Y_COOR": 30.004515,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [120.578262, 30.004515]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120200",
+        "NAME_PY": "Dinghai Ting",
+        "X_COOR": 122.101097,
+        "Y_COOR": 30.01516,
+        "TYPE_PY": "ZhiliTing",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Zhejiang"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [122.101097, 30.01516]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120201",
+        "NAME_PY": "Guangxin Fu",
+        "X_COOR": 117.96489,
+        "Y_COOR": 28.450691,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.96489, 28.450691]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120202",
+        "NAME_PY": "Nanchang Fu",
+        "X_COOR": 115.89772,
+        "Y_COOR": 28.674896,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.89772, 28.674896]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120203",
+        "NAME_PY": "Jiujiang Fu",
+        "X_COOR": 115.985679,
+        "Y_COOR": 29.722364,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.985679, 29.722364]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120204",
+        "NAME_PY": "Nankang Fu",
+        "X_COOR": 116.041122,
+        "Y_COOR": 29.453486,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.041122, 29.453486]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120205",
+        "NAME_PY": "Fuzhou Fu",
+        "X_COOR": 116.351341,
+        "Y_COOR": 27.984781,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.351341, 27.984781]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120206",
+        "NAME_PY": "Jianchang Fu",
+        "X_COOR": 116.627449,
+        "Y_COOR": 27.559717,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.627449, 27.559717]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120207",
+        "NAME_PY": "Lin'an Fu",
+        "X_COOR": 115.398987,
+        "Y_COOR": 28.015566,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.398987, 28.015566]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120208",
+        "NAME_PY": "Ji'an Fu",
+        "X_COOR": 114.971275,
+        "Y_COOR": 27.103239,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.971275, 27.103239]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120209",
+        "NAME_PY": "Yuanzhou Fu",
+        "X_COOR": 114.375885,
+        "Y_COOR": 27.794266,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.375885, 27.794266]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120210",
+        "NAME_PY": "Nan'an Fu",
+        "X_COOR": 114.350571,
+        "Y_COOR": 25.399954,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.350571, 25.399954]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120211",
+        "NAME_PY": "Ganzhou Fu",
+        "X_COOR": 114.93248,
+        "Y_COOR": 25.847,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.93248, 25.847]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120212",
+        "NAME_PY": "Ningdu Zhou",
+        "X_COOR": 116.010101,
+        "Y_COOR": 26.466515,
+        "TYPE_PY": "Zhilizhou",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.010101, 26.466515]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120213",
+        "NAME_PY": "Raozhou Fu",
+        "X_COOR": 116.663833,
+        "Y_COOR": 28.994167,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [116.663833, 28.994167]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "SYS_ID": "120214",
+        "NAME_PY": "Ruizhou Fu",
+        "X_COOR": 115.372276,
+        "Y_COOR": 28.425598,
+        "TYPE_PY": "Fu",
+        "BEG_RULE": "9",
+        "END_RULE": "9",
+        "DYN_PY": "Qingchao",
+        "LEV1_PY": "Jiangxi"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [115.372276, 28.425598]
+        ]
+      }
+    }
+  ]
+}
