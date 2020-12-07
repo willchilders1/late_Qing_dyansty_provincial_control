@@ -29,10 +29,10 @@
     <layer-tree-layer source="./data/china_provinces_1820.geojson" expanded="1" providerKey="ogr" name="china_provinces_1820" id="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="./data/taiping_rebellion.geojson|layername=taiping_rebellion" expanded="1" providerKey="ogr" name="taiping_rebellion" id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" checked="Qt::Unchecked">
+    <layer-tree-layer source="./data/taiping_rebellion.geojson|layername=taiping_rebellion" expanded="1" providerKey="ogr" name="taiping_rebellion" id="taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="./data/prefectures_1820_1911.geojson|layername=prefectures_1820_1911" expanded="1" providerKey="ogr" name="prefectures_1820_1911" id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" checked="Qt::Checked">
+    <layer-tree-layer source="./data/prefectures_1820_1911.geojson|layername=prefectures_1820_1911" expanded="1" providerKey="ogr" name="prefectures_1820_1911" id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer source="type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" name="Google Terrain Hybrid" id="Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf" checked="Qt::Unchecked">
@@ -60,27 +60,27 @@
       <item>Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46</item>
       <item>OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909</item>
       <item>Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf</item>
-      <item>taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8</item>
+      <item>taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings type="1" mode="2" tolerance="12" unit="1" intersection-snapping="0" enabled="0">
     <individual-layer-settings>
       <layer-setting units="1" type="1" tolerance="12" id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" enabled="0"/>
-      <layer-setting units="1" type="1" tolerance="12" id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" enabled="0"/>
       <layer-setting units="1" type="1" tolerance="12" id="CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee" enabled="0"/>
       <layer-setting units="1" type="1" tolerance="12" id="Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53" enabled="0"/>
       <layer-setting units="1" type="1" tolerance="12" id="china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd" enabled="0"/>
       <layer-setting units="1" type="1" tolerance="12" id="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>107.2192654655196975</xmin>
-      <ymin>23.37749251434073017</ymin>
-      <xmax>123.11264932851975118</xmax>
-      <ymax>34.1936464643404463</ymax>
+      <xmin>107.02839216051970084</xmin>
+      <ymin>22.3213268933407214</ymin>
+      <xmax>122.92177602351975452</xmax>
+      <ymax>33.13748084334044108</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -115,14 +115,14 @@
         <legendlayerfile visible="0" layerid="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="taiping_rebellion" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+    <legendlayer drawingOrder="-1" name="taiping_rebellion" open="true" showFeatureCount="0" checked="Qt::Checked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="0" layerid="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" isInOverview="0"/>
+        <legendlayerfile visible="1" layerid="taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" name="prefectures_1820_1911" open="true" showFeatureCount="0" checked="Qt::Checked">
+    <legendlayer drawingOrder="-1" name="prefectures_1820_1911" open="true" showFeatureCount="0" checked="Qt::Unchecked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" layerid="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" isInOverview="0"/>
+        <legendlayerfile visible="0" layerid="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" isInOverview="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="Google Terrain Hybrid" open="true" showFeatureCount="0" checked="Qt::Unchecked">
@@ -2133,7 +2133,7 @@
         <xmax>121.2276379999999989</xmax>
         <ymax>32.05256299999999925</ymax>
       </extent>
-      <id>taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8</id>
+      <id>taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545</id>
       <datasource>./data/taiping_rebellion.geojson|layername=taiping_rebellion</datasource>
       <keywordList>
         <value></value>
@@ -2197,7 +2197,7 @@
           <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
             <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
               <prop k="angle" v="0"/>
-              <prop k="color" v="190,207,80,255"/>
+              <prop k="color" v="152,125,183,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="circle"/>
@@ -2227,7 +2227,11 @@
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"NAME_PY"</value>
+        </property>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
@@ -2275,6 +2279,13 @@
             </config>
           </editWidget>
         </field>
+        <field name="timeline">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
       </fieldConfiguration>
       <aliases>
         <alias field="NAME_PY" index="0" name=""/>
@@ -2282,6 +2293,7 @@
         <alias field="LEV1_PY" index="2" name=""/>
         <alias field="year" index="3" name=""/>
         <alias field="Description" index="4" name=""/>
+        <alias field="timeline" index="5" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -2291,6 +2303,7 @@
         <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
         <default field="year" expression="" applyOnUpdate="0"/>
         <default field="Description" expression="" applyOnUpdate="0"/>
+        <default field="timeline" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
@@ -2298,6 +2311,7 @@
         <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
         <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
         <constraint field="Description" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="timeline" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
         <constraint field="NAME_PY" desc="" exp=""/>
@@ -2305,13 +2319,21 @@
         <constraint field="LEV1_PY" desc="" exp=""/>
         <constraint field="year" desc="" exp=""/>
         <constraint field="Description" desc="" exp=""/>
+        <constraint field="timeline" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
-        <columns/>
+      <attributetableconfig sortExpression="&quot;Description&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="year" hidden="0"/>
+          <column type="field" width="-1" name="Description" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -2328,7 +2350,7 @@
       <editable/>
       <labelOnTop/>
       <widgets/>
-      <previewExpression></previewExpression>
+      <previewExpression>"NAME_PY"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </projectlayers>
@@ -2342,7 +2364,7 @@
     <layer id="Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46"/>
     <layer id="OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909"/>
     <layer id="Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf"/>
-    <layer id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8"/>
+    <layer id="taiping_rebellion_d545ab0c_e957_49b4_9cf5_55d349089545"/>
   </layerorder>
   <properties>
     <Gui>
