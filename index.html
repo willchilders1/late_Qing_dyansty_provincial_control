@@ -6,18 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Labor Force in California, by county</title>
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css"
+		integrity="sha384-zEpdAL7W11eTKeoBJK1g79kgl9qjP7g84KfK3AZsuonx38n8ad+f5ZgXtoSDxPOh" crossorigin="anonymous">
 	<!-- Leaflet CSS -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 		crossorigin="" />
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<!--custom style css-->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -25,23 +23,29 @@
 	<div class="container-fluid">
 		<header class="row bg-dark text-white-50 py-3">
 			<div class="col">
-				<h1>Labor Force in California</h1>
+				<h1>Provincial Decline and the Death Throes of Dynastic China</h1>
 			</div>
 		</header>
 
 		<section class="row">
-			<div class="col-md-8 col-lg-9 col-xl-10 order-md-2 px-0">
-				<div id="map"></div>
-			</div>
+			<!-- <div class="col-md-8 col-lg-9 col-xl-10 order-md-2 px-0"> -->
+        <div id="map" class="bg-light position-relative">
+					<div class="form-group mr-3 mt-3" id="dropdown-ui">
+						<select class="form-control bg-primary text-white">
+							<option value="HC01_VC04" selected>Territory in 1820</option>
+							<option value="HC01_VC06">Territory in 1911</option>
+					</div>
+        </div>
+			<!-- </div> -->
 			<aside id="about" class="col-md-4 col-lg-3 col-xl-2 order-md-1 text-white py-2 pl-3 bg-secondary overflow-auto">
 				<section>
 					<h3 class="py-2">Workforce and Economy in California</h3>
-					<p>California's work force is one of the largest in the world, only smaller in population than 34 countries. San Diego, San Francisco, Los Angeles, 
-						and San Jose are all in the top 15 Populous cities in the United States. Additionally, the state also boasts one of the world's largest economy, with the 2019 
-					Gross State Product being the largest in the U.S. at 3.2 Trillion dollars. Trade and agriculture are both integral to the success of the state, with much of the northern
-				portion dedicated to many agricultural activities and the south a booming commerical center. Because the state is extremely large and geographically diverse there is a 
-			disparity in the wealth of employed individuals, with those in agricultural areas making far less than those living in San Franscisco, Los Angeles, etc.</p>
-					<p><br>	<a href="https://data.census.gov/cedsci/">Census Bureau</a>
+					<div class="first-column">
+					<p>Placeholder text here</p>
+					</div> 
+					<!-- end first column -->
+
+					<p><br> <a href="https://data.census.gov/cedsci/">Census Bureau</a>
 					</p>
 				</section>
 			</aside>
@@ -51,8 +55,9 @@
 			<div class="col">
 				<ul class="list-unstyled">
 					<li>authored by <a href="https://willchilders1.github.io/mapping-portfolio/">Will Childers</a></li>
-					<li>Created on 10/24/2020</li>
-					<li>data source: <a href="https://data.census.gov/cedsci/">Census Bureau</a>, <a href="https://en.wikipedia.org/wiki/California">Information Source</a></li>
+					<li>Created on 12/4/2020</li>
+					<li>data source: <a href="#">link</a>, <a
+							href="#">link</a></li>
 				</ul>
 			</div>
 		</footer>
@@ -64,13 +69,8 @@
 	<!-- ui is outside of container-fluid and will be dynamically added to map -->
 	<div class="form-group mr-3 mt-3" id="dropdown-ui">
 		<select class="form-control bg-primary text-white">
-			<option value="HC01_VC04" selected>Population 16 years and over in labor force</option>
-			<option value="HC01_VC06">Population 16 years and over employed
-			</option>
-			<option value="HC01_VC07">Population 16 years and over unemployed
-			</option>
-			<option value="HC01_VC09">Population 16 years and over not in labor force</option>
-		</select>
+			<option value="HC01_VC04" selected>Territory in 1820</option>
+			<option value="HC01_VC06">Territory in 1911</option>
 	</div>
 
 	<!-- jQuery first and the minified version from jQuery site, not the slim minified version from Bootstrap's site. -->
@@ -81,16 +81,16 @@
 		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
 	</script>
 	<!-- then Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
 		integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-	</script>
+	</script> -->
 	<!-- then Leaflet JS -->
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 		crossorigin=""></script>
 	<!-- then Simple Statistics -->
 	<script src='https://unpkg.com/simple-statistics@7.3.0/dist/simple-statistics.min.js'></script>
-  <script src="js/javascript.js"></script>
+	<script src="js/javascript.js"></script>
 </body>
 
 </html>

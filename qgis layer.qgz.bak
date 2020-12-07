@@ -1,0 +1,2424 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUser="willi" projectname="" version="3.12.1-București" saveUserFull="William Childers">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["Unknown datum based upon the Krassowsky 1940 ellipsoid",DATUM["Not specified (based on Krassowsky 1940 ellipsoid)",ELLIPSOID["Krassowsky 1940",6378245,298.3,LENGTHUNIT["metre",1]],ID["EPSG",6024]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["longitude",east,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["latitude",north,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]]]</wkt>
+      <proj4>+proj=longlat +ellps=krass +no_defs +type=crs</proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym>PARAMETER:6378245:6356863.01877304725348949</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="referer=OpenStreetMap%20contributors,%20CC-BY-SA&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" name="OpenStreetMap Standard" id="OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" name="Google Maps" id="Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/china_provinces_1820.geojson" expanded="1" providerKey="ogr" name="china_provinces_1820" id="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/taiping_rebellion.geojson|layername=taiping_rebellion" expanded="1" providerKey="ogr" name="taiping_rebellion" id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/prefectures_1820_1911.geojson|layername=prefectures_1820_1911" expanded="1" providerKey="ogr" name="prefectures_1820_1911" id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0" expanded="1" providerKey="wms" name="Google Terrain Hybrid" id="Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/merged_prefectures_1820_and_1911.geojson|layername=merged_prefectures_1820_and_1911" expanded="1" providerKey="ogr" name="Merged" id="Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/china_provinces_1911.geojson" expanded="1" providerKey="ogr" name="china_provinces_1911" id="china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./data/china prefecture capitals 1820 and 1911/CHGIS_1911_PREF_PT.shp" expanded="1" providerKey="ogr" name="CHGIS_1911_PREF_PT" id="CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;referer=Map%20tiles%20by%20CartoDB,%20under%20CC%20BY%203.0.%20Data%20by%20OpenStreetMap,%20under%20ODbL.&amp;type=xyz&amp;url=http://basemaps.cartocdn.com/dark_all/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=20&amp;zmin=0" expanded="1" providerKey="wms" name="CartoDb Dark Matter" id="CartoDb_Dark_Matter_c288dfc1_f350_457d_90f1_2a20a3160c66" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee</item>
+      <item>CartoDb_Dark_Matter_c288dfc1_f350_457d_90f1_2a20a3160c66</item>
+      <item>china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00</item>
+      <item>china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd</item>
+      <item>Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53</item>
+      <item>prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7</item>
+      <item>Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46</item>
+      <item>OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909</item>
+      <item>Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf</item>
+      <item>taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings type="1" mode="2" tolerance="12" unit="1" intersection-snapping="0" enabled="0">
+    <individual-layer-settings>
+      <layer-setting units="1" type="1" tolerance="12" id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd" enabled="0"/>
+      <layer-setting units="1" type="1" tolerance="12" id="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>107.2192654655196975</xmin>
+      <ymin>23.37749251434073017</ymin>
+      <xmax>123.11264932851975118</xmax>
+      <ymax>34.1936464643404463</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["Unknown datum based upon the Krassowsky 1940 ellipsoid",DATUM["Not specified (based on Krassowsky 1940 ellipsoid)",ELLIPSOID["Krassowsky 1940",6378245,298.3,LENGTHUNIT["metre",1]],ID["EPSG",6024]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["longitude",east,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["latitude",north,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]]]</wkt>
+        <proj4>+proj=longlat +ellps=krass +no_defs +type=crs</proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description></description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym>PARAMETER:6378245:6356863.01877304725348949</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="OpenStreetMap Standard" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Google Maps" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="china_provinces_1820" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="taiping_rebellion" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="prefectures_1820_1911" open="true" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Google Terrain Hybrid" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Merged" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="china_provinces_1911" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="CHGIS_1911_PREF_PT" open="true" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" layerid="CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="CartoDb Dark Matter" open="true" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" layerid="CartoDb_Dark_Matter_c288dfc1_f350_457d_90f1_2a20a3160c66" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>107.03518699999999342</xmin>
+        <ymin>20.00816500000000175</ymin>
+        <xmax>122.10109699999999577</xmax>
+        <ymax>40.61036299999999954</ymax>
+      </extent>
+      <id>CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee</id>
+      <datasource>./data/china prefecture capitals 1820 and 1911/CHGIS_1911_PREF_PT.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CHGIS_1911_PREF_PT</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["Unknown datum based upon the Krassowsky 1940 ellipsoid",DATUM["Not specified (based on Krassowsky 1940 ellipsoid)",ELLIPSOID["Krassowsky 1940",6378245,298.3,LENGTHUNIT["metre",1]],ID["EPSG",6024]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["longitude",east,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["latitude",north,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]]]</wkt>
+          <proj4>+proj=longlat +ellps=krass +no_defs +type=crs</proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym>PARAMETER:6378245:6356863.01877304725348949</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="243,166,178,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NAME_PY&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="SYS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_FT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PRES_LOC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV_RANK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEG_YR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEG_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_YR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DYN_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DYN_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV2_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV2_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNT_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNT_CH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEO_SRC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SYS_ID" index="0" name=""/>
+        <alias field="NAME_PY" index="1" name=""/>
+        <alias field="NAME_CH" index="2" name=""/>
+        <alias field="NAME_FT" index="3" name=""/>
+        <alias field="X_COOR" index="4" name=""/>
+        <alias field="Y_COOR" index="5" name=""/>
+        <alias field="PRES_LOC" index="6" name=""/>
+        <alias field="TYPE_PY" index="7" name=""/>
+        <alias field="TYPE_CH" index="8" name=""/>
+        <alias field="LEV_RANK" index="9" name=""/>
+        <alias field="BEG_YR" index="10" name=""/>
+        <alias field="BEG_RULE" index="11" name=""/>
+        <alias field="END_YR" index="12" name=""/>
+        <alias field="END_RULE" index="13" name=""/>
+        <alias field="DYN_PY" index="14" name=""/>
+        <alias field="DYN_CH" index="15" name=""/>
+        <alias field="LEV1_PY" index="16" name=""/>
+        <alias field="LEV1_CH" index="17" name=""/>
+        <alias field="LEV2_PY" index="18" name=""/>
+        <alias field="LEV2_CH" index="19" name=""/>
+        <alias field="COUNT_PY" index="20" name=""/>
+        <alias field="COUNT_CH" index="21" name=""/>
+        <alias field="NOTE_ID" index="22" name=""/>
+        <alias field="GEO_SRC" index="23" name=""/>
+        <alias field="year" index="24" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="SYS_ID" expression="" applyOnUpdate="0"/>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="NAME_CH" expression="" applyOnUpdate="0"/>
+        <default field="NAME_FT" expression="" applyOnUpdate="0"/>
+        <default field="X_COOR" expression="" applyOnUpdate="0"/>
+        <default field="Y_COOR" expression="" applyOnUpdate="0"/>
+        <default field="PRES_LOC" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_CH" expression="" applyOnUpdate="0"/>
+        <default field="LEV_RANK" expression="" applyOnUpdate="0"/>
+        <default field="BEG_YR" expression="" applyOnUpdate="0"/>
+        <default field="BEG_RULE" expression="" applyOnUpdate="0"/>
+        <default field="END_YR" expression="" applyOnUpdate="0"/>
+        <default field="END_RULE" expression="" applyOnUpdate="0"/>
+        <default field="DYN_PY" expression="" applyOnUpdate="0"/>
+        <default field="DYN_CH" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_CH" expression="" applyOnUpdate="0"/>
+        <default field="LEV2_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV2_CH" expression="" applyOnUpdate="0"/>
+        <default field="COUNT_PY" expression="" applyOnUpdate="0"/>
+        <default field="COUNT_CH" expression="" applyOnUpdate="0"/>
+        <default field="NOTE_ID" expression="" applyOnUpdate="0"/>
+        <default field="GEO_SRC" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="SYS_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_FT" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="X_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Y_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="PRES_LOC" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV_RANK" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="BEG_YR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="BEG_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="END_YR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="END_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="DYN_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="DYN_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV2_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV2_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="COUNT_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="COUNT_CH" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NOTE_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="GEO_SRC" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SYS_ID" desc="" exp=""/>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="NAME_CH" desc="" exp=""/>
+        <constraint field="NAME_FT" desc="" exp=""/>
+        <constraint field="X_COOR" desc="" exp=""/>
+        <constraint field="Y_COOR" desc="" exp=""/>
+        <constraint field="PRES_LOC" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="TYPE_CH" desc="" exp=""/>
+        <constraint field="LEV_RANK" desc="" exp=""/>
+        <constraint field="BEG_YR" desc="" exp=""/>
+        <constraint field="BEG_RULE" desc="" exp=""/>
+        <constraint field="END_YR" desc="" exp=""/>
+        <constraint field="END_RULE" desc="" exp=""/>
+        <constraint field="DYN_PY" desc="" exp=""/>
+        <constraint field="DYN_CH" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="LEV1_CH" desc="" exp=""/>
+        <constraint field="LEV2_PY" desc="" exp=""/>
+        <constraint field="LEV2_CH" desc="" exp=""/>
+        <constraint field="COUNT_PY" desc="" exp=""/>
+        <constraint field="COUNT_CH" desc="" exp=""/>
+        <constraint field="NOTE_ID" desc="" exp=""/>
+        <constraint field="GEO_SRC" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="SYS_ID" hidden="0"/>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="NAME_CH" hidden="0"/>
+          <column type="field" width="-1" name="NAME_FT" hidden="0"/>
+          <column type="field" width="-1" name="X_COOR" hidden="0"/>
+          <column type="field" width="-1" name="Y_COOR" hidden="0"/>
+          <column type="field" width="-1" name="PRES_LOC" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_CH" hidden="0"/>
+          <column type="field" width="-1" name="LEV_RANK" hidden="0"/>
+          <column type="field" width="-1" name="BEG_YR" hidden="0"/>
+          <column type="field" width="-1" name="BEG_RULE" hidden="0"/>
+          <column type="field" width="-1" name="END_YR" hidden="0"/>
+          <column type="field" width="-1" name="END_RULE" hidden="0"/>
+          <column type="field" width="-1" name="DYN_PY" hidden="0"/>
+          <column type="field" width="-1" name="DYN_CH" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_CH" hidden="0"/>
+          <column type="field" width="-1" name="LEV2_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV2_CH" hidden="0"/>
+          <column type="field" width="-1" name="COUNT_PY" hidden="0"/>
+          <column type="field" width="-1" name="COUNT_CH" hidden="0"/>
+          <column type="field" width="-1" name="NOTE_ID" hidden="0"/>
+          <column type="field" width="-1" name="GEO_SRC" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME_PY"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="raster" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" minScale="1e+08">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>CartoDb_Dark_Matter_c288dfc1_f350_457d_90f1_2a20a3160c66</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;referer=Map%20tiles%20by%20CartoDB,%20under%20CC%20BY%203.0.%20Data%20by%20OpenStreetMap,%20under%20ODbL.&amp;type=xyz&amp;url=http://basemaps.cartocdn.com/dark_all/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=20&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CartoDb Dark Matter</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" colorizeOn="0" colorizeStrength="100" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="raster" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" minScale="1e+08">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46</id>
+      <datasource>type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dm%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Maps</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" colorizeOn="0" colorizeStrength="100" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="raster" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" minScale="1e+08">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf</id>
+      <datasource>type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dp%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Google Terrain Hybrid</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" colorizeOn="0" colorizeStrength="100" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>76.023894999999996</xmin>
+        <ymin>20.00799999999999912</ymin>
+        <xmax>129.55680899999998701</xmax>
+        <ymax>49.97205399999999997</ymax>
+      </extent>
+      <id>Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53</id>
+      <datasource>./data/merged_prefectures_1820_and_1911.geojson|layername=merged_prefectures_1820_and_1911</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Merged</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NAME_PY&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="SYS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEG_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DYN_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEO_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="layer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="path">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SYS_ID" index="0" name=""/>
+        <alias field="NAME_PY" index="1" name=""/>
+        <alias field="X_COOR" index="2" name=""/>
+        <alias field="Y_COOR" index="3" name=""/>
+        <alias field="TYPE_PY" index="4" name=""/>
+        <alias field="BEG_RULE" index="5" name=""/>
+        <alias field="END_RULE" index="6" name=""/>
+        <alias field="DYN_PY" index="7" name=""/>
+        <alias field="LEV1_PY" index="8" name=""/>
+        <alias field="GEO_ID" index="9" name=""/>
+        <alias field="year" index="10" name=""/>
+        <alias field="layer" index="11" name=""/>
+        <alias field="path" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="SYS_ID" expression="" applyOnUpdate="0"/>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="X_COOR" expression="" applyOnUpdate="0"/>
+        <default field="Y_COOR" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="BEG_RULE" expression="" applyOnUpdate="0"/>
+        <default field="END_RULE" expression="" applyOnUpdate="0"/>
+        <default field="DYN_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="GEO_ID" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+        <default field="layer" expression="" applyOnUpdate="0"/>
+        <default field="path" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="SYS_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="X_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Y_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="BEG_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="END_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="DYN_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="GEO_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="layer" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="path" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SYS_ID" desc="" exp=""/>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="X_COOR" desc="" exp=""/>
+        <constraint field="Y_COOR" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="BEG_RULE" desc="" exp=""/>
+        <constraint field="END_RULE" desc="" exp=""/>
+        <constraint field="DYN_PY" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="GEO_ID" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+        <constraint field="layer" desc="" exp=""/>
+        <constraint field="path" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;year&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="SYS_ID" hidden="0"/>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="X_COOR" hidden="0"/>
+          <column type="field" width="-1" name="Y_COOR" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="BEG_RULE" hidden="0"/>
+          <column type="field" width="-1" name="END_RULE" hidden="0"/>
+          <column type="field" width="-1" name="DYN_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="GEO_ID" hidden="0"/>
+          <column type="field" width="-1" name="year" hidden="0"/>
+          <column type="field" width="-1" name="layer" hidden="0"/>
+          <column type="field" width="-1" name="path" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME_PY"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" type="raster" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" minScale="1e+08">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909</id>
+      <datasource>referer=OpenStreetMap%20contributors,%20CC-BY-SA&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap Standard</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeRed="255" colorizeGreen="128" colorizeBlue="128" colorizeOn="0" colorizeStrength="100" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>76.023894999999996</xmin>
+        <ymin>20.00799999999999912</ymin>
+        <xmax>129.55680899999998701</xmax>
+        <ymax>49.97205399999999997</ymax>
+      </extent>
+      <id>china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00</id>
+      <datasource>./data/china_provinces_1820.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>china_provinces_1820</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NAME_PY&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="SYS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEG_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DYN_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEO_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SYS_ID" index="0" name=""/>
+        <alias field="NAME_PY" index="1" name=""/>
+        <alias field="X_COOR" index="2" name=""/>
+        <alias field="Y_COOR" index="3" name=""/>
+        <alias field="TYPE_PY" index="4" name=""/>
+        <alias field="BEG_RULE" index="5" name=""/>
+        <alias field="END_RULE" index="6" name=""/>
+        <alias field="DYN_PY" index="7" name=""/>
+        <alias field="LEV1_PY" index="8" name=""/>
+        <alias field="GEO_ID" index="9" name=""/>
+        <alias field="year" index="10" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="SYS_ID" expression="" applyOnUpdate="0"/>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="X_COOR" expression="" applyOnUpdate="0"/>
+        <default field="Y_COOR" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="BEG_RULE" expression="" applyOnUpdate="0"/>
+        <default field="END_RULE" expression="" applyOnUpdate="0"/>
+        <default field="DYN_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="GEO_ID" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="SYS_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="X_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Y_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="BEG_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="END_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="DYN_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="GEO_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SYS_ID" desc="" exp=""/>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="X_COOR" desc="" exp=""/>
+        <constraint field="Y_COOR" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="BEG_RULE" desc="" exp=""/>
+        <constraint field="END_RULE" desc="" exp=""/>
+        <constraint field="DYN_PY" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="GEO_ID" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;SYS_ID&quot;" actionWidgetStyle="dropDown" sortOrder="1">
+        <columns>
+          <column type="field" width="-1" name="SYS_ID" hidden="0"/>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="X_COOR" hidden="0"/>
+          <column type="field" width="-1" name="Y_COOR" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="BEG_RULE" hidden="0"/>
+          <column type="field" width="-1" name="END_RULE" hidden="0"/>
+          <column type="field" width="-1" name="DYN_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="GEO_ID" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME_PY"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>107.03518699999999342</xmin>
+        <ymin>20.00816500000000175</ymin>
+        <xmax>122.10109699999999577</xmax>
+        <ymax>40.61036299999999954</ymax>
+      </extent>
+      <id>china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd</id>
+      <datasource>./data/china_provinces_1911.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>china_provinces_1911</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="213,180,60,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NAME_PY&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="SYS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_COOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEG_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_RULE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DYN_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SYS_ID" index="0" name=""/>
+        <alias field="NAME_PY" index="1" name=""/>
+        <alias field="X_COOR" index="2" name=""/>
+        <alias field="Y_COOR" index="3" name=""/>
+        <alias field="TYPE_PY" index="4" name=""/>
+        <alias field="BEG_RULE" index="5" name=""/>
+        <alias field="END_RULE" index="6" name=""/>
+        <alias field="LEV1_PY" index="7" name=""/>
+        <alias field="year" index="8" name=""/>
+        <alias field="DYN_PY" index="9" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="SYS_ID" expression="" applyOnUpdate="0"/>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="X_COOR" expression="" applyOnUpdate="0"/>
+        <default field="Y_COOR" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="BEG_RULE" expression="" applyOnUpdate="0"/>
+        <default field="END_RULE" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+        <default field="DYN_PY" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="SYS_ID" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="X_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Y_COOR" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="BEG_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="END_RULE" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="DYN_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SYS_ID" desc="" exp=""/>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="X_COOR" desc="" exp=""/>
+        <constraint field="Y_COOR" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="BEG_RULE" desc="" exp=""/>
+        <constraint field="END_RULE" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+        <constraint field="DYN_PY" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="SYS_ID" hidden="0"/>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="X_COOR" hidden="0"/>
+          <column type="field" width="-1" name="Y_COOR" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="BEG_RULE" hidden="0"/>
+          <column type="field" width="-1" name="END_RULE" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="DYN_PY" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME_PY"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>76.023894999999996</xmin>
+        <ymin>20.00799999999999912</ymin>
+        <xmax>129.55680899999998701</xmax>
+        <ymax>49.97205399999999997</ymax>
+      </extent>
+      <id>prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7</id>
+      <datasource>./data/prefectures_1820_1911.geojson|layername=prefectures_1820_1911</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>prefectures_1820_1911</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="133,182,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"NAME_PY"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="layer">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="path">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Description">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="NAME_PY" index="0" name=""/>
+        <alias field="TYPE_PY" index="1" name=""/>
+        <alias field="LEV1_PY" index="2" name=""/>
+        <alias field="year" index="3" name=""/>
+        <alias field="layer" index="4" name=""/>
+        <alias field="path" index="5" name=""/>
+        <alias field="Description" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+        <default field="layer" expression="" applyOnUpdate="0"/>
+        <default field="path" expression="" applyOnUpdate="0"/>
+        <default field="Description" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="layer" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="path" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Description" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+        <constraint field="layer" desc="" exp=""/>
+        <constraint field="path" desc="" exp=""/>
+        <constraint field="Description" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;NAME_PY&quot;" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" name="NAME_PY" hidden="0"/>
+          <column type="field" width="-1" name="TYPE_PY" hidden="0"/>
+          <column type="field" width="-1" name="LEV1_PY" hidden="0"/>
+          <column type="field" width="-1" name="year" hidden="0"/>
+          <column type="field" width="-1" name="layer" hidden="0"/>
+          <column type="field" width="-1" name="path" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+          <column type="field" width="-1" name="Description" hidden="0"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NAME_PY"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" labelsEnabled="0" wkbType="MultiPoint" maxScale="0" geometry="Point" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyLocal="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" simplifyDrawingHints="1" type="vector" autoRefreshTime="0">
+      <extent>
+        <xmin>110.07166300000000092</xmin>
+        <ymin>23.13462399999999874</ymin>
+        <xmax>121.2276379999999989</xmax>
+        <ymax>32.05256299999999925</ymax>
+      </extent>
+      <id>taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8</id>
+      <datasource>./data/taiping_rebellion.geojson|layername=taiping_rebellion</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>taiping_rebellion</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" alpha="1" name="0" clip_to_extent="1" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="NAME_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEV1_PY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Description">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="NAME_PY" index="0" name=""/>
+        <alias field="TYPE_PY" index="1" name=""/>
+        <alias field="LEV1_PY" index="2" name=""/>
+        <alias field="year" index="3" name=""/>
+        <alias field="Description" index="4" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="NAME_PY" expression="" applyOnUpdate="0"/>
+        <default field="TYPE_PY" expression="" applyOnUpdate="0"/>
+        <default field="LEV1_PY" expression="" applyOnUpdate="0"/>
+        <default field="year" expression="" applyOnUpdate="0"/>
+        <default field="Description" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="NAME_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="TYPE_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="LEV1_PY" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="year" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+        <constraint field="Description" exp_strength="0" notnull_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="NAME_PY" desc="" exp=""/>
+        <constraint field="TYPE_PY" desc="" exp=""/>
+        <constraint field="LEV1_PY" desc="" exp=""/>
+        <constraint field="year" desc="" exp=""/>
+        <constraint field="Description" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="CHGIS_1911_PREF_PT_4104a603_c4b7_4003_a566_f1bac3a227ee"/>
+    <layer id="CartoDb_Dark_Matter_c288dfc1_f350_457d_90f1_2a20a3160c66"/>
+    <layer id="china_provinces_1820_21123340_8134_42fb_86ea_b49e6885ef00"/>
+    <layer id="china_provinces_1911_c9acc1c4_d44c_4760_8e34_26b5a4cd4acd"/>
+    <layer id="Merged_587f34d7_0c2a_48bd_84b5_0429507f1d53"/>
+    <layer id="prefectures_1820_1911_431460f8_0ef2_46df_9e7f_8f03ee3871d7"/>
+    <layer id="Google_Maps_b86c69b4_0ae9_436c_96e7_a3d7698ada46"/>
+    <layer id="OpenStreetMap_Standard_680edf59_51d0_4c34_9229_075ec2e35909"/>
+    <layer id="Google_Terrain_Hybrid_80d023f4_7022_44ee_b639_f481e4acd4bf"/>
+    <layer id="taiping_rebellion_bdf9e2fe_d037_4526_b6e7_66ad457960a8"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">PARAMETER:6378245:6356863.01877304725348949</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">mi2</AreaUnits>
+      <DistanceUnits type="QString">mi</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>William Childers</author>
+    <creation>2020-12-04T13:17:16</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="QChar" value="" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="QChar" value="" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
