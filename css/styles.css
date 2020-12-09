@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   background: rgb(42, 42, 42);
@@ -24,60 +24,59 @@ h2 {
   font-weight: 300;
   text-transform: uppercase;
   /*  Stack text shadows.  */
-  text-shadow: 0 0 30px #0098b3, 0 0 40px #00c2e4, 0 0 50px #00c2e4, 0 0 80px #00c2e4;
-}
+  /* text-shadow: 0 0 30px #0098b3, 0 0 40px #00c2e4, 0 0 50px #00c2e4, 0 0 80px #00c2e4;
+} */
 
-p {
+/* p {
   font-size: 1em;
   color: rgba(170, 170, 170);
   font-weight: 300;
   font-size: 1.2em;
-}
+} */
 
-a {
+/* a {
   color: rgb(150, 110, 2);
   text-decoration: underline;
-}
+} */
 
-header,
+/* header,
 footer,
 section {
   padding: 6px 10%;
   margin: 0 auto;
   width: 100%
-}
+} */
 
-.first-column {
+/* .first-column {
   float: left;
   width: 49%;
   padding-right: 2%;
-}
+} */
 
-.second-column {
+/* .second-column {
   float: left;
   width: 49%;
-}
+} */
 
-#map {
-  /* position: absolute; */
+/* #map {
   width: 80%;
   height: 750px;
   margin: 10px auto;
-}
+} */
 
-#ui {
+/* #ui {
   position: absolute;
   right: 1em;
   top: 1em;
-}
+} */
 
-#dropdown-ui {
+/* #dropdown-ui {
   position: absolute;
   right: 1em;
   top: 1em;
-}
+} */
 
-#legend {
+/* #legend {
   font-size: 1rem;
   border-radius: 5px;
   max-width: 200px;
@@ -89,9 +88,9 @@ section {
   height: 20px;
   float: left;
   margin: 0 10px 4px 0;
-}
+} */
 
-#legend label {
+/* #legend label {
   font-size: 0.9rem;
 }
 
@@ -99,6 +98,113 @@ section {
   content: '';
   display: block;
   clear: both;
+} */ 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  color: #3d3d3d;
+}
+
+h1 {
+  position: absolute;
+  margin-top: 0;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: 10px 15px;
+  /* Add styles to match Leaflet UI elements */
+  background: rgba(256, 256, 256, .3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 800;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: .04em;
+
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#about {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  width: 280px;
+  padding: 0 15px;
+  /* Add styles to match Leaflet UI elements */
+  background: rgba(256, 256, 256, .3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  z-index: 800;
+}
+
+p {
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+a {
+  color: #005daa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Leaflet popup styles */
+.leaflet-popup-content {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
+}
+
+/* 
+When browser is 900px high or less
+make the font a little smaller.
+ */
+@media screen and (max-height: 400px) {
+
+  #about p,
+  #about h2 {
+    font-size: .6em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  #about h2 {
+    font-size: 1em;
+  }
+
+  .leaflet-popup-content {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+  }
+}
+
+/* Don't display info block when window is very small */
+@media screen and (max-height: 200px) {
+
+  #about {
+    display: none;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -1,16 +1,164 @@
 {
-"type": "FeatureCollection",
-"name": "taiping_rebellion",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "NAME_PY": "Xunzhou Fu", "TYPE_PY": "Fu", "LEV1_PY": "Guangxi", "year": 1820, "Description": "In 1850, the Qing officials launched a religious persecution campaign against the God-worshipping society. A series of skirmishes between the two forces culminated in January of 1851 with the Jintian Uprising. Feng Yunshan and militia leader Wei Changhui led an Army of 10,000 against the Qing military forces, successfully pushing them back from Jintian. This was the first in a series of important military victories for the forces, and the beginning of the Taiping Heavenly Kingdom. This began the push northward from Guangxi into more centrally controlled Qing territory.", "timeline": 2 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 110.071663, 23.394571 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Changsha Fu", "TYPE_PY": "Fu", "LEV1_PY": "Hunan", "year": 1911, "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ", "timeline": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 112.978134, 28.198198 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Guangzhou Fu", "TYPE_PY": "Fu", "LEV1_PY": "Guangdong", "year": 1911, "Description": "In 1814, Hong Huoxiu was born to an ethnic Hakka household north of Guangzhou. He studied for and attempted the imperial examinations three times before succumbing to a prolonged period of fever and sickness. While ill, he claims to have seen visions that showed him as a heavenly figure and part of the Christian pantheon alongside a celestial father, determined by Hong to be God the Father in 1843. He was given the power to ‘slay demons’, figures which would later manifest as the Qing population at large. It was also at this point that Hong changed his name to Hong Xiuquan after being instructed to do so by the celestial father. He began recruiting converts and burning non-christian symbols and texts while preaching his vision interpretation. A southern Baptist missionary tutored Hong in Christian texts, though the priest refused to baptize him. One of Hong’s early followers, Feng Yunshan, founder the God Worshipping Society, proclaiming Hong, and two other God Worshippers as part of the celestial Christian family. Hong was to be named the Heavenly King and the younger brother of Jesus. The Worshippers, Yang Xiuqang and Xiao Chaogui proclaimed themselves The Father and Jesus Christ, respectively; claims later reinforced by the Heavenly King himself.", "timeline": 1 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 113.256066, 23.134624 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Wuchang Fu", "TYPE_PY": "Fu", "LEV1_PY": "Hubei", "year": 1911, "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ", "timeline": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 114.305727, 30.560694 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Anqing Fu", "TYPE_PY": "Fu", "LEV1_PY": "Anhui", "year": 1911, "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ", "timeline": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 117.034676, 30.512295 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Yuezhou Fu", "TYPE_PY": "Fu", "LEV1_PY": "Hunan", "year": 1911, "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ", "timeline": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 113.097656, 29.37126 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Jiangning Fu", "TYPE_PY": "Fu", "LEV1_PY": "Jiangsu", "year": 1911, "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ", "timeline": 3 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 118.76899, 32.052563 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Songjiang Fu", "TYPE_PY": "Fu", "LEV1_PY": "Jiangsu", "year": 1911, "Description": "Northern and western military expeditions were waged with varying results. Attempts to overthrow the Qing capital at Beijing failed, though attempts increase territory to the west were more successful. Around this time, Yang Xiuqing attempted incursions on Hong’s leadership and was executed in 1856 along with his followers. Wei Changhui also attempted a soft coup but was similarly executed by Hong’s forces. These squabbles within the Taiping leadership would progressively weaken the rebel state. The real prize for the Heavenly Kingdom was Shanghai to the southeast, a port city that would allow for unlimited trade with the British and French. While the Qing were given military precedence in the eyes of Western countries, they were known to sometimes trade with the rebel group. When the Taiping forces attempted a takeover of Shanghai in August of 1860 and were strongly repelled by a joint Qing\/European force-the Ever-Victorious Army-led by Charles George Gordon. The Heavenly Kingdom pushed eastward once more in 1862 but were unable to capture Shanghai. ", "timeline": 4 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 121.227638, 31.009476 ] ] } },
-{ "type": "Feature", "properties": { "NAME_PY": "Guandong Highlands", "TYPE_PY": "Si", "LEV1_PY": "Guangdong", "year": 1820, "Description": "In May 1862, the Qing forces laid siege to the city of Tianjing. Though Hong proclaimed protection of the city by God, it fell the the Xiang Army under control of the Qing took the city. Hong Xiuquan died prior to the taking of the city, though to what end is still a matter of dispute. He died of poison though it is unclear if he was murdered or if he died by his own hand. His son-also named Hong-was named as his successor but was quickly caught and executed. Regardless, the death of the Heavenly King marked the eventual downfall of the Taiping rebellion and the continuation of Qing rule until the fall of Dynastic China in 1911. With Hong dead and the Heavenly Capital no longer under Taiping control, they were forced into retreat all the way back to the highlands in Guangdong, not far from where the rebellion began fifteen years prior. The Taiping rebellion was one the deadliest conflicts in human history with loss of life between 20 and 70 million. ", "timeline": 5 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 113.432987, 23.319435 ] ] } }
-]
+  "type": "FeatureCollection",
+  "name": "taiping_rebellion",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Guangzhou Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Guangdong",
+        "year": 1911,
+        "Description": "In 1814, Hong Huoxiu was born to an ethnic Hakka household north of Guangzhou. He studied for and attempted the imperial examinations three times before succumbing to a prolonged period of fever and sickness. While ill, he claims to have seen visions that showed him as a heavenly figure and part of the Christian pantheon alongside a celestial father, determined by Hong to be God the Father in 1843. He was given the power to ‘slay demons’, figures which would later manifest as the Qing population at large. It was also at this point that Hong changed his name to Hong Xiuquan after being instructed to do so by the celestial father. He began recruiting converts and burning non-christian symbols and texts while preaching his vision interpretation. A southern Baptist missionary tutored Hong in Christian texts, though the priest refused to baptize him. One of Hong’s early followers, Feng Yunshan, founder the God Worshipping Society, proclaiming Hong, and two other God Worshippers as part of the celestial Christian family. Hong was to be named the Heavenly King and the younger brother of Jesus. The Worshippers, Yang Xiuqang and Xiao Chaogui proclaimed themselves The Father and Jesus Christ, respectively; claims later reinforced by the Heavenly King himself.",
+        "timeline": 1
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.256066, 23.134624]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Xunzhou Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Guangxi",
+        "year": 1820,
+        "Description": "In 1850, the Qing officials launched a religious persecution campaign against the God-worshipping society. A series of skirmishes between the two forces culminated in January of 1851 with the Jintian Uprising. Feng Yunshan and militia leader Wei Changhui led an Army of 10,000 against the Qing military forces, successfully pushing them back from Jintian. This was the first in a series of important military victories for the forces, and the beginning of the Taiping Heavenly Kingdom. This began the push northward from Guangxi into more centrally controlled Qing territory.",
+        "timeline": 2
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [110.071663, 23.394571]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Changsha Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Hunan",
+        "year": 1911,
+        "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ",
+        "timeline": 3
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [112.978134, 28.198198]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Yuezhou Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Hunan",
+        "year": 1911,
+        "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ",
+        "timeline": 4
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.097656, 29.37126]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Wuchang Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Hubei",
+        "year": 1911,
+        "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ",
+        "timeline": 5
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [114.305727, 30.560694]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Anqing Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Anhui",
+        "year": 1911,
+        "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ",
+        "timeline": 6
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [117.034676, 30.512295]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Jiangning Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Jiangsu",
+        "year": 1911,
+        "Description": "The Taiping Heavenly Kingdom began travelling north, following the Xiang river toward the Yangtze River to escape the Qing forces they faced in Jintian. Throughout 1851 and 1852 the Heavenly Kingdom besieged Changsha, occupied Yuezhou, captured Wuchang in December of 1851 and the city of Anqing in February of 1852. They continued their march northward along the Yangtze, culminating in the capture of Nanjing in March of 1853. At this point Hong declared the city as the capital and the Taiping Heavenly Kingdom settled into the city, renaming it Tianjing (Heavenly Capital). This proved to be the most important territorial acquisition during the rebellion as Nanjing provided a strategic center for trade and military operation going forward. It was also at this point though that Hong began issuing orders via writings, rarely conducting state business and spending much of his time living as a king. Although followers of the Heavenly Kingdom were forbidden from intercourse or intermingling of gender, Hong was allowed a large harem and any luxury he desired. ",
+        "timeline": 7
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [118.76899, 32.052563]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Songjiang Fu",
+        "TYPE_PY": "Fu",
+        "LEV1_PY": "Jiangsu",
+        "year": 1911,
+        "Description": "Northern and western military expeditions were waged with varying results. Attempts to overthrow the Qing capital at Beijing failed, though attempts increase territory to the west were more successful. Around this time, Yang Xiuqing attempted incursions on Hong’s leadership and was executed in 1856 along with his followers. Wei Changhui also attempted a soft coup but was similarly executed by Hong’s forces. These squabbles within the Taiping leadership would progressively weaken the rebel state. The real prize for the Heavenly Kingdom was Shanghai to the southeast, a port city that would allow for unlimited trade with the British and French. While the Qing were given military precedence in the eyes of Western countries, they were known to sometimes trade with the rebel group. When the Taiping forces attempted a takeover of Shanghai in August of 1860 and were strongly repelled by a joint Qing\/European force-the Ever-Victorious Army-led by Charles George Gordon. The Heavenly Kingdom pushed eastward once more in 1862 but were unable to capture Shanghai. ",
+        "timeline": 8
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [121.227638, 31.009476]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME_PY": "Guandong Highlands",
+        "TYPE_PY": "Si",
+        "LEV1_PY": "Guangdong",
+        "year": 1820,
+        "Description": "In May 1862, the Qing forces laid siege to the city of Tianjing. Though Hong proclaimed protection of the city by God, it fell the the Xiang Army under control of the Qing, who took the city. Hong Xiuquan died prior to the taking of the city, though to what end is still a matter of dispute. He died of poison though it is unclear if he was murdered or if he died by his own hand. His son-also named Hong-was named as his successor but was quickly caught and executed. Regardless, the death of the Heavenly King marked the eventual downfall of the Taiping rebellion and the continuation of Qing rule until the fall of Dynastic China in 1911. With Hong dead and the Heavenly Capital no longer under Taiping control, they were forced into retreat all the way back to the highlands in Guangdong, not far from where the rebellion began fifteen years prior. The Taiping rebellion was one the deadliest conflicts in human history with loss of life between 20 and 70 million. ",
+        "timeline": 9
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [113.432987, 23.319435]
+        ]
+      }
+    }
+  ]
 }
