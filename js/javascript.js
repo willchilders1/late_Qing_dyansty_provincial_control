@@ -38,14 +38,11 @@
   });
 
   function drawMap(data) {
-   var taipingFlag = L.MakiMarkers.icon({
-      icon: "svgs/Taiping_Heavenly_Kingdom_Banner.svg"
-  });
     const provinces = L.geoJson(data, {
       pointToLayer: function (feature, latlng) {
-        return L.marker(latlng, {
-          icon: taipingFlag
-      });
+        return L.circleMarker(latlng, {
+            color: '#ffef00'
+        });
     }}).addTo(map);
     // fit the map's bounds and zoom level using the counties extent
     map.fitBounds(provinces.getBounds(), {
@@ -86,9 +83,9 @@
       // });
 
 
-      let tooltipInfo = `<p2><b>${props["historic_name"]}</b></p2></br>` +
-            `<p2><b>Modern Province:</b> ${props["modern_province"]}</p2></br>` +
-            `<p2><b>Significant Events:</b> ${props["significance"]}</p2>`
+      let tooltipInfo = `<b>${props["historic_name"]}</b></br>` +
+            `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
+            `<b>Significant Events:</b> ${props["significance"]}`
 
       // bind a tooltip to layer with county-specific information
       layer.bindTooltip(tooltipInfo, {
