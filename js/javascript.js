@@ -13,7 +13,7 @@
     position: "bottomright"
   }).addTo(map)
 
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
     maxZoom: 20,
     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
   }).addTo(map);
@@ -41,9 +41,10 @@
     const provinces = L.geoJson(data, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
-            color: '#ffef00'
+          color: '#ffef00'
         });
-    }}).addTo(map);
+      }
+    }).addTo(map);
     // fit the map's bounds and zoom level using the counties extent
     map.fitBounds(provinces.getBounds(), {
       padding: [20, 20] // add padding around counties
@@ -51,7 +52,7 @@
     updateMap(provinces);
     // circleWithText(provinces);
   }
-  
+
   // function circleWithText(latLng, txt, circleOptions) {
   //   var icon = L.divIcon({
   //     html: '<div class="txt">' + txt + '</div>',
@@ -84,8 +85,8 @@
 
 
       let tooltipInfo = `<b>${props["historic_name"]}</b></br>` +
-            `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
-            `<b>Significant Events:</b> ${props["significance"]}`
+        `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
+        `<b>Significant Events:</b> ${props["significance"]}`
 
       // bind a tooltip to layer with county-specific information
       layer.bindTooltip(tooltipInfo, {
