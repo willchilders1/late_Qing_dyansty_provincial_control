@@ -89,7 +89,7 @@
         `<b>Significant Events:</b> ${props["significance"]}`
 
       // bind a tooltip to layer with county-specific information
-      layer.bindTooltip(tooltipInfo, {
+      layer.bindPopup(tooltipInfo, {
         // sticky property so tooltip follows the mouse
         sticky: true
       });
