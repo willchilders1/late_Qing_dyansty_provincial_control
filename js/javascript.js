@@ -51,7 +51,11 @@
     });
     updateMap(provinces);
     // circleWithText(provinces);
+    
   }
+
+  const slider = document.querySelector('#year')
+  const yearLabel = document.querySelector('#yearLabel')
 
   // function circleWithText(latLng, txt, circleOptions) {
   //   var icon = L.divIcon({
@@ -67,11 +71,29 @@
   //   return(group);
   // }
 
+  function zoomToFeature(provinces, step) {
+    provinces.eachLayer(function (layer) { 
+    const f = layer.feature
+    const t = f.properties.timeline
+    const g = f.geometry.coordinates[0]
+    if (t == step) {
+      map.flyTo([g[1],g[0]], 10)
+      yearLabel.innerHTML = f.properties.year
+    }
+  })
+}
+
   function updateMap(provinces) {
     // you could log counties to console here to 
     // verify the Leaflet layers object is not accessible
     // and scoped within this function
     console.log(provinces);
+
+    slider.addEventListener('change', function(event){
+      const step = event.target.value
+      zoomToFeature(provinces, step)
+     
+    })
 
     // loop through each county layer to update the color and tooltip info
     provinces.eachLayer(function (layer) {
@@ -125,4 +147,5 @@
 
     // select the legend, add a title, begin an unordered list and assign to a variable
   }
+  
 })();
