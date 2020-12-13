@@ -1,105 +1,3 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  background: rgb(42, 42, 42);
-  font-family:'Times New Roman', Times, serif;
-  font-size: 100%;
-  font-weight: 300;
-  color: rgb(172, 172, 172);
-}
-
-h1 {
-  display: inline-block;
-  margin-right: 20px;
-  color: rgb(190, 190, 190);
-  font-size: 2.5em;
-  font-weight: 700;
-}
-
-h2 {
-  display: inline-block;
-  color: #94d8ff;
-  letter-spacing: 0.05em;
-  margin-top: 0px;
-  font-weight: 300;
-  text-transform: uppercase;
-  /*  Stack text shadows.  */
-  /* text-shadow: 0 0 30px #0098b3, 0 0 40px #00c2e4, 0 0 50px #00c2e4, 0 0 80px #00c2e4;
-} */
-
-/* p {
-  font-size: 1em;
-  color: rgba(170, 170, 170);
-  font-weight: 300;
-  font-size: 1.2em;
-} */
-
-/* a {
-  color: rgb(150, 110, 2);
-  text-decoration: underline;
-} */
-
-/* header,
-footer,
-section {
-  padding: 6px 10%;
-  margin: 0 auto;
-  width: 100%
-} */
-
-/* .first-column {
-  float: left;
-  width: 49%;
-  padding-right: 2%;
-} */
-
-/* .second-column {
-  float: left;
-  width: 49%;
-} */
-
-/* #map {
-  width: 80%;
-  height: 750px;
-  margin: 10px auto;
-} */
-
-/* #ui {
-  position: absolute;
-  right: 1em;
-  top: 1em;
-} */
-
-/* #dropdown-ui {
-  position: absolute;
-  right: 1em;
-  top: 1em;
-} */
-
-/* #legend {
-  font-size: 1rem;
-  border-radius: 5px;
-  max-width: 200px;
-  font-family:'Times New Roman', Times, serif;
-}
-
-#legend span {
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 0 10px 4px 0;
-} */
-
-/* #legend label {
-  font-size: 0.9rem;
-}
-
-#legend label:after {
-  content: '';
-  display: block;
-  clear: both;
-} */ 
-
 body {
   margin: 0;
   padding: 0;
@@ -132,9 +30,9 @@ h2 {
 
 }
 
-.h3{
+/* #h3{
   font-family: 'Langar', cursive;
-}
+} */
 
 #map {
   position: absolute;
@@ -162,12 +60,6 @@ p {
   line-height: 1.5em;
 }
 
-.p2{
-  font-size: .9em;
-  line-height: 1.5em;
-  font-family: 'Langar', cursive;
-}
-
 a {
   color: #005daa;
   text-decoration: none;
@@ -178,9 +70,20 @@ a:hover {
 }
 
 /* Leaflet popup styles */
-.leaflet-popup-content {
+.leaflet-popup-content-wrapper{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* .leaflet-popup-content-h3{
   font-family: 'Langar', cursive;
-  font-size: 1.1em;
+} */
+
+.leaflet-popup-content {
+  font-family: 'Courgette', cursive;
+  font-size: 0.9em;
 }
 
 .circle-with-txt {

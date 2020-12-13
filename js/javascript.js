@@ -39,9 +39,14 @@
 
   function drawMap(data) {
     const provinces = L.geoJson(data, {
+
       pointToLayer: function (feature, latlng) {
+        // var mapIcon = L.Icon({
+        //   iconUrl: 'Taiping_Heavenly_Kingdom_Banner.svg'
+        // });
         return L.circleMarker(latlng, {
-          color: '#ffef00'
+          color: '#ffef00',
+          // icon: mapIcon
         });
       }
     }).addTo(map);
@@ -108,6 +113,7 @@
 
       let tooltipInfo = `<b>${props["historic_name"]}</b></br>` +
         `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
+        `${props["description"]}</br>` +
         `<b>Significant Events:</b> ${props["significance"]}`
 
       // bind a tooltip to layer with county-specific information
