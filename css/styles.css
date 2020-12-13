@@ -18,7 +18,7 @@ h1 {
   padding: 10px 15px;
   background: rgba(256, 256, 256, .8);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  border: 1px double #ddd;
+  border: 1px double rgb(100, 99, 0);
   border-radius: 5px;
   z-index: 800;
 }
@@ -50,7 +50,7 @@ h2 {
   /* Add styles to match Leaflet UI elements */
   background: rgba(256, 256, 256, 1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  border: 1px solid #ddd;
+  border: 1px double rgb(100, 99, 0);
   border-radius: 5px;
   z-index: 800;
 }
@@ -70,8 +70,8 @@ a:hover {
 }
 
 /* Leaflet popup styles */
-.leaflet-popup-content-wrapper{
-  border: 1px solid #ddd;
+.leaflet-popup-content-wrapper {
+  border: 1px double rgb(100, 99, 0);
   border-radius: 5px;
   width: fit-content;
   height: fit-content;
@@ -83,8 +83,30 @@ a:hover {
 
 .leaflet-popup-content {
   font-family: 'Courgette', cursive;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
+
+/* .custom-popup .leaflet-popup-content {
+  font-family: 'Langar', cursive;
+  font-size: 1.1em;
+
+} */
+
+/* .custom-popup .leaflet-popup-content-wrapper {
+  background: #2c3e50;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+} */
+
+/* .custom-popup .leaflet-popup-content-wrapper a {
+  color: rgba(255, 255, 255, 0.5);
+} */
+
+/* .custom-popup .leaflet-popup-tip-container {
+  width: 30px;
+  height: 15px;
+} */
 
 .circle-with-txt {
   position: relative;
@@ -94,6 +116,7 @@ a:hover {
   width: 40px;
   height: 40px;
 }
+
 .txt {
   margin: 0;
   position: absolute;

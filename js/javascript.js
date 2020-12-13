@@ -111,7 +111,7 @@
       // });
 
 
-      let tooltipInfo = `<b>${props["historic_name"]}</b></br>` +
+      let tooltipInfo = `<custom-popup><b>${props["historic_name"]}</b></br></custom-popup>` +
         `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
         `${props["description"]}</br>` +
         `<b>Significant Events:</b> ${props["significance"]}`
