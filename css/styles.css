@@ -45,7 +45,7 @@ h2 {
   position: absolute;
   bottom: 20px;
   left: 15px;
-  width: 280px;
+  width: fit-content;
   padding: 0 15px;
   /* Add styles to match Leaflet UI elements */
   background: rgba(256, 256, 256, 1);

@@ -1,5 +1,21 @@
 References and Metadata
 
+Richard von Glahn, University of California-Los Angeles, https://link.springer.com/chapter/10.1007/978-981-10-4053-5_5
+
+Various Contributors, https://en.wikipedia.org/wiki/Taiping_Rebellion
+
+Wang Luman, National University of Singapore, http://scholarbank.nus.edu.sg/handle/10635/13111
+
+Carol Ann Benedict, "Bubonic Plague in Nineteenth-century China", https://books.google.com/books?id=gxa7jcVIR9MC&pg=PR17&lpg=PR17&dq=fu+vs+Zhiliting&source=bl&ots=9GLpX1YIqx&sig=ACfU3U3q4Tq25Q5ijdTIWcJRGrIpMQEzYw&hl=en&sa=X&ved=2ahUKEwj1473x97HtAhUQFVkFHUxRCVYQ6AEwFHoECBwQAg#v=onepage&q=fu%20vs%20Zhiliting&f=false
+
+History.com Editors ,history.com, https://www.history.com/topics/china/taiping-rebellion
+
+The Editors of Encyclopaedia Britannica, Taiping Rebellion(Chinese History), https://www.britannica.com/event/Taiping-Rebellion
+
+Chronology of Events of the Taiping Rebellion, Author Unknown, https://pages.uoregon.edu/inaasim/Hist%20487/Spring%2006/Taiping%20Chronology.html
+
+
+
 <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=714677">Link</a>
 
 <a href="https://commons.wikimedia.org/wiki/File:Taiping_Heavenly_Kingdom_Banner.svg">Samhanin</a>, CC0, via Wikimedia Commons, GNU LICENSE 2.0
