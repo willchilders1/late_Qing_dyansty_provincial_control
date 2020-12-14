@@ -87,13 +87,19 @@ button:hover {
   color: white;
 }
 
+button:active {
+  background-color: #133314;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+
 .button1 {
-  border-radius: 50%;
+  border-radius: 20px;
   /* float: left; */
-  width: 50%;
+  width: 45%;
 }
 .button2{
-  border-radius: 45%;
+  border-radius: 20px;
   float: right;
   width: 45%;
 }
@@ -162,7 +168,31 @@ a:hover {
   height: 200px;
   border: 1px dashed rgb(100, 99, 0);
   overflow-y: auto;
+  scrollbar-width: thin;
   font-family: 'Karla', sans-serif;
+  
+}
+
+.scroller {
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  scrollbar-color: rgb(155, 155, 155) #c5c5a7;
+  scrollbar-width: thin;   
+}
+
+#description::-webkit-scrollbar {
+  width: 300px;               /* width of the entire scrollbar */
+}
+
+#description::-webkit-scrollbar-track {
+  background: #c5c5a7;        /* color of the tracking area */
+}
+
+#description::-webkit-scrollbar-thumb {
+  background-color: rgb(155, 155, 155);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px;  /* creates padding around scroll thumb */
 }
 
 /* 
@@ -184,19 +214,23 @@ make the font a little smaller.
     font-size: 1em;
   }
 
+  #year{
+    text-align: center; ;
+  }
+
   .leaflet-popup-content {
     font-family: 'Courgette', cursive;
     font-size: 0.9em;
   }
 
-  .leaflet-popup-content-wrapper {
+  /* .leaflet-popup-content-wrapper {
     display: none;
     /* border: 1px double rgb(100, 99, 0);
     border-radius: 5px;
     width: fit-content;
     height: fit-content;
     background-color: #c5c5a7; */
-  }
+  /* } */
 
   #description {
     width: 150px;
@@ -219,14 +253,20 @@ make the font a little smaller.
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  /* #about {
+    display: block;
+    font-size: 0.2em;
+  } */
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  aside {
-    height: 80vh;
-  }
+   /* #about {
+    display: block;
+    font-size: 0.2em;
+  } */
 }
 
 /* Large devices (desktops, 992px and up) */
