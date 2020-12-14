@@ -119,7 +119,7 @@
 
       let tooltipInfo = `<h3><b>${props["historic_name"]}</b></br></h3>` +
         `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
-        `${props["image"]}</br>` +
+        `<img src='${props["image"]}'></br>` +
         `<b>Significant Events:</b> ${props["significance"]}`
 
       // bind a tooltip to layer with county-specific information
