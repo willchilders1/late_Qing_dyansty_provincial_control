@@ -13,10 +13,15 @@
     position: "bottomright"
   }).addTo(map)
 
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-    maxZoom: 20,
-    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+  const accessToken = `pk.eyJ1Ijoid2lsbGNoaWxkZXJzMSIsImEiOiJja2g1M205c2IwOWF2MnpwczBuejZxdW54In0.OGjcvoxu6rmtqTfFvO9zvQ`
+  const yourName = 'willchilders1'
+  const yourMap = 'ckh6koxz3049a1apbalz3wujr'
+
+  L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{z}/{x}/{y}?access_token=${accessToken}`, {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 20
   }).addTo(map);
+
 
   // mapped attribute, and normalizing attribute
   let attributeValue = "timeline"; //when rebellion took place 1-10
