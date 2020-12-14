@@ -77,36 +77,16 @@ a:hover {
   height: fit-content;
 }
 
-/* .leaflet-popup-content-h3{
-  font-family: 'Langar', cursive;
-} */
-
 .leaflet-popup-content {
-  font-family: 'Courgette', cursive;
+  font-family: 'Karla', sans-serif;
   font-size: 1.1em;
 }
 
-/* .custom-popup .leaflet-popup-content {
+.leaflet-popup-content h3 {
   font-family: 'Langar', cursive;
-  font-size: 1.1em;
-
-} */
-
-/* .custom-popup .leaflet-popup-content-wrapper {
-  background: #2c3e50;
-  color: #fff;
-  font-size: 16px;
-  line-height: 24px;
-} */
-
-/* .custom-popup .leaflet-popup-content-wrapper a {
-  color: rgba(255, 255, 255, 0.5);
-} */
-
-/* .custom-popup .leaflet-popup-tip-container {
-  width: 30px;
-  height: 15px;
-} */
+  font-size: 1.3em;
+  border: 0px;
+}
 
 .circle-with-txt {
   position: relative;
@@ -125,6 +105,13 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 16px;
+}
+
+#description {
+  width: 250px;
+  height: 200px;
+  overflow: scroll;
+  font-family: 'Karla', sans-serif;
 }
 
 /* 
@@ -147,7 +134,7 @@ make the font a little smaller.
   }
 
   .leaflet-popup-content {
-    font-family: 'Langar', cursive;
+    font-family: 'Courgette', cursive;
     font-size: 0.9em;
   }
 }
