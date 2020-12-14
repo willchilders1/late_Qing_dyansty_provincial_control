@@ -125,7 +125,9 @@ a:hover {
 .leaflet-popup-content h3 {
   font-family: 'Langar', cursive;
   font-size: 1.3em;
-  border: 0px;
+  margin: 0.25em;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .circle-with-txt {
@@ -146,6 +148,14 @@ a:hover {
   transform: translate(-50%, -50%);
   font-size: 16px;
 }
+
+/* #timeline {
+  width: 250px;
+  height: 200px;
+  border: 1px dashed rgb(100, 99, 0);
+  overflow-y: auto;
+  font-family: 'Karla', sans-serif;
+} */
 
 #description {
   width: 250px;
