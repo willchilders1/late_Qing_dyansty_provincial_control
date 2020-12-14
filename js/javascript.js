@@ -46,6 +46,8 @@
         // });
         return L.circleMarker(latlng, {
           color: '#ffef00',
+          radius: 12
+          // icon: 'svgs/Taiping_Heavenly_Kingdom_Banner.svg',
           // icon: mapIcon
         });
       }
