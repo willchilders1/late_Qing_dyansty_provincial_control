@@ -232,7 +232,7 @@ make the font a little smaller.
   }
 
   #year{
-    text-align: center; ;
+    width: 80%;
   }
 
   .leaflet-popup-content {

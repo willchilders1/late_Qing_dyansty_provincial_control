@@ -1,7 +1,7 @@
 (function () {
   // initial Leaflet map options
   const options = {
-    zoomSnap: 1,
+    zoomSnap: .1,
     // center: [40, -90], 
     // zoom: 4,
     zoomControl: false
@@ -51,7 +51,7 @@
         // });
         return L.circleMarker(latlng, {
           color: '#ffef00',
-          radius: 12,
+          // radius:6,
           // icon: 'svgs/Taiping_Heavenly_Kingdom_Banner.svg',
           // icon: mapIcon
         });
