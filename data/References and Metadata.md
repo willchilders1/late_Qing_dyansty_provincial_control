@@ -1,8 +1,13 @@
 References and Metadata
 
-Richard von Glahn, University of California-Los Angeles, https://link.springer.com/chapter/10.1007/978-981-10-4053-5_5
+China Provinces. (2020, November 10). Australian National University CartoGIS. https://asiapacific.anu.edu.au/mapsonline/base-maps/china-provinces-0
 
-Various Contributors, https://en.wikipedia.org/wiki/Taiping_Rebellion
+Wikipedia contributors. (2020, December 12). Taiping Rebellion. Wikipedia. https://en.wikipedia.org/wiki/Taiping_Rebellion
+
+University of Oregon History 487. (n.d.). Chronology of Events of the Taiping Rebellion. University of Oregon Taiping Chronology. Retrieved December 14, 2020, from https://pages.uoregon.edu/inaasim/Hist%20487/Spring%2006/Taiping%20Chronology.htm
+
+von Glahn R. (2018) Economic Depression and the Silver Question in Nineteenth-Century China. Perez Garcia M., De Sousa L. (eds) Global History and New Polycentric Approaches. Palgrave Studies in Comparative Global History. Palgrave Macmillan, Singapore. Retrieved December 14, 2020. https://doi.org/10.1007/978-981-10-4053-5_5
+
 
 Wang Luman, National University of Singapore, http://scholarbank.nus.edu.sg/handle/10635/13111
 
@@ -11,10 +16,6 @@ Carol Ann Benedict, "Bubonic Plague in Nineteenth-century China", https://books.
 History.com Editors ,history.com, https://www.history.com/topics/china/taiping-rebellion
 
 The Editors of Encyclopaedia Britannica, Taiping Rebellion(Chinese History), https://www.britannica.com/event/Taiping-Rebellion
-
-Chronology of Events of the Taiping Rebellion, Author Unknown, https://pages.uoregon.edu/inaasim/Hist%20487/Spring%2006/Taiping%20Chronology.html
-
-
 
 <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=714677">Link</a>
 
