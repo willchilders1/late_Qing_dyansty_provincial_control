@@ -138,6 +138,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.leaflet-popup-content h4 {
+  font-family: 'Karla', sans-serif;
+  font-size: .6em;
+  margin: 0.01em;
+  text-align: left;
+  /* text-decoration: underline; */
+}
+
 .circle-with-txt {
   position: relative;
   color: white;
