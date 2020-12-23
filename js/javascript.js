@@ -125,6 +125,7 @@
       let tooltipInfo = `<h3><b>${props["historic_name"]}</b></br></h3>` +
         `<b>Modern Province:</b> ${props["modern_province"]}</br>` +
         `<img src='${props["image"]}'></br>` +
+        `<h6>For Full Experience Please Use Larger Screen</h6>` +
         `<h4>${props["source"]}</br></h4>` +
         `<b>Significant Events:</b> ${props["significance"]}`
 
