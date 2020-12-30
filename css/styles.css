@@ -194,7 +194,7 @@ a:hover {
 }
 
 #description::-webkit-scrollbar {
-  width: 300px;
+  width: 10px;
   /* width of the entire scrollbar */
 }
 

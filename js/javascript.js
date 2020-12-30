@@ -100,14 +100,18 @@
     })
 
     forward.addEventListener('click', function(event){
+      console.log(currentState)
      if(currentState < 10){
       zoomToFeature(provinces, ++currentState)
+      slider.value = currentState + 1
      }
     })
 
     backward.addEventListener('click', function(event){
-     if(currentState > 1){
+      console.log(currentState)
+     if(currentState > 0){
       zoomToFeature(provinces, --currentState)
+      slider.value = currentState - 1
      }
     })
 
